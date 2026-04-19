@@ -45,7 +45,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..600;1,400..500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..600;1,400..500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
   :root {
@@ -58,7 +58,7 @@
     --rule-soft: #231F1A;
     --accent: #E89A5A;
     --accent-soft: #3A2919;
-    --font-display: 'Fraunces', Georgia, serif;
+    --font-display: 'Instrument Sans', -apple-system, sans-serif;
     --font-body: 'Instrument Sans', -apple-system, sans-serif;
     --font-mono: 'JetBrains Mono', ui-monospace, monospace;
   }
@@ -202,18 +202,17 @@
 
   h1.hero-title {
     font-family: var(--font-display);
-    font-weight: 350;
+    font-weight: 400;
     font-size: clamp(44px, 8vw, 88px);
     line-height: 0.98;
     letter-spacing: -0.028em;
     color: var(--ink);
-    font-variation-settings: 'opsz' 144, 'SOFT' 50;
     margin-bottom: 48px;
     animation: fadeUp .9s ease .2s both;
   }
   h1.hero-title em {
     font-style: italic;
-    font-weight: 350;
+    font-weight: 400;
     color: var(--accent);
   }
 
@@ -305,15 +304,14 @@
 
   .topic-title {
     font-family: var(--font-display);
-    font-weight: 350;
+    font-weight: 400;
     font-size: clamp(40px, 5.5vw, 60px);
     line-height: 1;
     letter-spacing: -0.024em;
     color: var(--ink);
-    font-variation-settings: 'opsz' 72;
     margin-bottom: 20px;
   }
-  .topic-title em { color: var(--accent); font-weight: 350; }
+  .topic-title em { color: var(--accent); font-weight: 400; }
 
   .topic-blurb {
     font-size: 17px;
@@ -444,10 +442,9 @@
     flex-shrink: 0;
     font-family: var(--font-display);
     font-size: 72px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1;
     color: var(--accent);
-    font-variation-settings: 'opsz' 144;
   }
   .writing-card .content { flex: 1; }
   .writing-card h3 {
